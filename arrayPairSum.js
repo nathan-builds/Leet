@@ -21,9 +21,7 @@ var arrayPairSum = function (nums) {
   nums.sort((a, b) => {
     return a - b;
   });
-
   var i = nums.length - 2;
-  console.log(i);
   while (i >= 0) {
     sum += nums[i];
     i -= 2;
